@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'adam-script';
+    src: url('../fonts/AdamScript-Regular.ttf');
+}
+
+body p {
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 600px) {
+    header > h1 {
+        font-size: 50px !important;
+    }
+    header > p {
+        font-size: 20px !important;
+        min-width: 80% !important;
+    }
+
+    #h3-versiculo, #p-versiculo {
+        font-size: 30px !important;
+    }
+
+    #iframe-mapa {
+        width: 300px !important;
+        height: 300px !important
+    }
+
+    .p-fornecedores {
+        font-size: 20px !important;
+    }
+
+    .p-listas {
+        font-size: 15px !important;
+    }
+}
+
+header {
+    background-image: url('../imgs/Heritage.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 400px !important;
+}
+
+#card-versiculo {
+    background-image: url('../imgs/img-ali-up-3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+#h3-versiculo, #p-versiculo {
+    font-size: 50px;
+}
+
+#section-4 {
+    background-image: url('../imgs/img-rancho-2.jpg');
+    /* height: 500px; */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fornecedores-imgs {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+#section-6 {
+    background-image: url('../imgs/fundo-card-chat.png');
+    background-size: cover;
+    /* background-attachment: fixed; */
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section-7 {
+    background-image: url('../imgs/img-presente-1.jpg');
+    height: 300px;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#section-8 {
+    background-image: url('../imgs/img-fundo-1.jpg');
+    height: 300px;
+    /* background-attachment: fixed; */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
