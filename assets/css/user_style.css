@@ -104,10 +104,10 @@ header {
 }
 
 #section-4 {
-    background-image: url('../imgs/img-rancho-2.jpg');
+    background-image: url('../imgs/rancho-3.png');
     /* height: 500px; */
-    background-attachment: fixed;
-    background-position: center;
+    /* background-attachment: fixed; */
+    background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -136,7 +136,7 @@ header {
 }
 
 #section-8 {
-    background-image: url('../imgs/img-fundo-1.jpg');
+    background-image: url('../imgs/img-fundo-5.jpg');
     height: 300px;
     /* background-attachment: fixed; */
     background-position: center;
