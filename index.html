@@ -325,6 +325,9 @@
         </section>
         <!-- SECTION 8 -->
 
+        <audio id="musicaFundo" autoplay loop>
+            <source src="assets/audios/musica-fundo-site-casamento.mp3" type="audio/mp3">
+        </audio>
     </main>
     <!-- MAIN -->
 
@@ -371,6 +374,17 @@
     </div>
 
     <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const audio = document.getElementById("musicaFundo");
+            audio.volume = 0.1;
+            // Toca a música quando o usuário interagir com a página
+            document.body.addEventListener("click", function () {
+                if (audio.paused) {
+                    audio.play().catch(error => console.error("Erro ao iniciar a música:", error));
+                }
+            });
+        });
+
         const typed = new Typed('#p-text-typed', {
             strings: ['Sejam bem-vindos ao nosso site! Aqui, compartilhamos um pouco da nossa história e os detalhes do nosso grande dia. Acompanhem cada etapa dessa jornada especial conosco!'],
             typeSpeed: 30,
