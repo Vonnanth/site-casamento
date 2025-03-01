@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="assets/css/user_style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
     <style>
@@ -35,31 +38,49 @@
 
         <!-- SECTION 1 -->
         <section class="my-5 mx-sm-5">
+            <h3 class="fs-1 text-center" style="font-family: Diphylleia, serif;">Nossa História</h3>
             <div class="row m-0 p-0">
-                <div class="col-sm-6 col-12">
+                <!-- <div class="col-sm-6 col-12">
                     <img class="img-fluid" src="assets/imgs/nossa-foto-1.png" alt="">
-                </div>
-                <div class="col-sm-6 col-12">
+                </div> -->
+                <div class="col-sm-6 col-12 my-2" id="div-swiper-slides">
                     <div style="font-family: Diphylleia, serif;">
-                        <h3 class="fs-1">Nossa História</h3>
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <!-- <div class="swiper-slide"><img class="img-fluid" src="assets/imgs/nossa-foto-1.png" alt=""></div> -->
+                                <div class="swiper-slide"><img class="img-fluid" src="assets/imgs/nossa-foto-2.jpg" alt=""></div>
+                                <div class="swiper-slide"><img class="img-fluid" src="assets/imgs/nossa-foto-3.jpg" alt=""></div>
+                                <div class="swiper-slide"><img class="img-fluid" src="assets/imgs/nossa-foto-4.jpg" alt=""></div>
+                            </div>
+                        </div>
                     </div>
-                    <div style="font-family: Sevillana, serif;">
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis velit ipsam quibusdam
-                            voluptate aspernatur perferendis, reprehenderit placeat rerum nemo saepe ex quod dicta
-                            repellendus harum? Recusandae provident quidem explicabo deserunt!
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis velit ipsam quibusdam
-                            voluptate aspernatur perferendis, reprehenderit placeat rerum nemo saepe ex quod dicta
-                            repellendus harum? Recusandae provident quidem explicabo deserunt!
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis velit ipsam quibusdam
-                            voluptate aspernatur perferendis, reprehenderit placeat rerum nemo saepe ex quod dicta
-                            repellendus harum? Recusandae provident quidem explicabo deserunt!
-                        </p>
-                    </div>
+                </div>
+                <div  class="col-sm-6 col-12" style="font-family: Sevillana, serif;">
+                    <p>
+                        Tudo começou de forma simples, quase inocente. Dois jovens, separados por 1200 km de
+                        distância, se encontraram no vasto universo da internet. O que deveria ser apenas amizade
+                        logo se tornou algo mais – um sentimento que crescia silencioso, genuíno e inesperado.
+                        Tentaram ignorar, seguir como antes, mas os planos de Deus sempre são maiores que os nossos.
+                        <br>
+                        A vida, guiada por propósitos divinos, começou a se mover em favor deles. Pequenos sinais,
+                        bênçãos incontáveis e uma conexão inexplicável os levaram a perceber que o que sentiam era
+                        muito mais do que um simples carinho. Então, um passo de coragem foi dado: ele enfrentou 27
+                        horas de viagem de ônibus para vê-la, trazendo no coração a certeza do que já sabia – ele a
+                        amava. E agora, diante dos pais dela, só precisava pedir sua mão.
+                        <br>
+                        A resposta foi paz. Nos corações dos pais, nos olhares das famílias, na convicção de que
+                        aquele amor não era apenas deles, mas também um plano maior se concretizando. Assim, juntos,
+                        começaram a regar essa semente de amor, fortalecendo-a dia após dia.
+                        Quando menos esperavam, Deus fez mais uma vez. Mesmo sem condições para um noivado naquele
+                        momento, Ele proveu, e antes do planejado, o compromisso foi selado. Agora, o grande dia se
+                        aproxima, e a maior distância que já suportaram está prestes a desaparecer para sempre.
+                        Ansiosos, contam os dias para finalmente dizer o "sim" que transformará suas vidas para
+                        sempre.
+                        <br>
+                        E por isso, compartilhar esse momento com você é tão especial. Se esta história chegou até
+                        você, é porque de alguma forma você faz parte dela.
+                    </p>
+                </div>
                 </div>
             </div>
         </section>
@@ -67,26 +88,39 @@
 
         <!-- SECTION 2 -->
         <section class="my-5 mx-sm-5">
+            <h3 class="fs-1 text-center" style="font-family: Diphylleia, serif;">Pais dos Noivos</h3>
             <div class="row m-0 p-0">
-                <div class=" col-sm-6 col-12" style="font-family: Diphylleia, serif;">
-                    <div>
-                        <h3 class="fs-1">Pais dos Noivos</h3>
-                    </div>
-                    <div>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis velit ipsam quibusdam
-                            voluptate aspernatur perferendis, reprehenderit placeat rerum nemo saepe ex quod dicta
-                            repellendus harum? Recusandae provident quidem explicabo deserunt!
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis velit ipsam quibusdam
-                            voluptate aspernatur perferendis, reprehenderit placeat rerum nemo saepe ex quod dicta
-                            repellendus harum? Recusandae provident quidem explicabo deserunt!
-                        </p>
+                <div class="col-sm-6 col-12 text-end">
+                    <div class="swiper mySwiper6">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img class="img-fluid" src="assets/imgs/pais-foto-1.jpeg" alt=""></div>
+                            <div class="swiper-slide"><img class="img-fluid" src="assets/imgs/nossa-foto-3.jpg" alt=""></div>
+                        </div>
                     </div>
                 </div>
-                <div class=" col-sm-6 col-12 text-end">
-                    <img class="img-fluid" src="assets/imgs/casal-placeholder1.jpg" alt="">
+                <div class=" col-sm-6 col-12" style="font-family: Diphylleia, serif;">
+                    <div>
+                        <p>
+                            Antes mesmo de entendermos o que era o amor, nós o vimos refletido em nossos pais. Eles
+                            foram nossos primeiros exemplos de parceria, paciência e compromisso. Através deles,
+                            aprendemos que o amor verdadeiro vai muito além das flores e dos dias ensolarados – ele
+                            também vive nos desafios, nos dias difíceis, nas renúncias silenciosas e na força de
+                            recomeçar, quantas vezes for preciso.
+                            <br>
+                            Crescemos assistindo a beleza do casamento em sua essência mais pura: o amor que se constrói
+                            no perdão, na dedicação diária e, acima de tudo, na comunhão com Deus. Foi com eles que
+                            entendemos que um lar não é feito apenas de paredes, mas de fé, cumplicidade e coragem para
+                            seguir juntos, independentemente das tempestades.
+                            <br>
+                            Hoje, ao darmos este passo tão importante, levamos conosco cada ensinamento que vimos em
+                            nossos pais. Eles não são apenas parte da nossa história, mas alicerces que nos sustentam.
+                            E, se o nosso casamento puder carregar ao menos um pouco da grandiosidade do amor que
+                            testemunhamos neles, então saberemos que estamos no caminho certo.
+                            <br>
+                            A vocês, nossos pais, nossa eterna gratidão. Vocês são, e sempre serão, nossos maiores
+                            exemplos de amor. ❤️
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -97,7 +131,10 @@
             <div class="card" id="card-versiculo">
                 <div class="card-body p-5 text-white" style="font-family: Tangerine, serif;">
                     <h3 id="h3-versiculo">1 Coríntios 13:4-7:</h3>
-                    <p id="p-versiculo">“O amor é paciente, o amor é bondoso. Não inveja, não se vangloria, não se orgulha. Não maltrata, não procura seus interesses, não se ira facilmente, não guarda rancor. O amor não se alegra com a injustiça, mas se alegra com a verdade. Tudo sofre, tudo crê, tudo espera, tudo suporta.”</p>
+                    <p id="p-versiculo">“O amor é paciente, o amor é bondoso. Não inveja, não se vangloria, não se
+                        orgulha. Não maltrata, não procura seus interesses, não se ira facilmente, não guarda rancor. O
+                        amor não se alegra com a injustiça, mas se alegra com a verdade. Tudo sofre, tudo crê, tudo
+                        espera, tudo suporta.”</p>
                 </div>
             </div>
         </section>
@@ -119,15 +156,11 @@
                 <div class="text-white w-100 text-center">
                     <i class="bi bi-geo-alt" style="font-size: 2rem;"></i>
                     <h5>Localização</h5>
-                    <iframe
-                        id="iframe-mapa"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3663.8581790363064!2d-46.30908392389828!3d-23.320903852803866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce869fc5243da5%3A0xf2b0345d37100099!2sRancho%20Ribeiro&#39;s!5e0!3m2!1spt-BR!2sbr!4v1739038371113!5m2!1spt-BR!2sbr" 
-                        width="650" 
-                        height="450" 
-                        style="border:5px solid white; border-radius: 15px; box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);" 
-                        allowfullscreen="" 
-                        loading="lazy" 
-                        referrerpolicy="no-referrer-when-downgrade">
+                    <iframe id="iframe-mapa"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3663.8581790363064!2d-46.30908392389828!3d-23.320903852803866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce869fc5243da5%3A0xf2b0345d37100099!2sRancho%20Ribeiro&#39;s!5e0!3m2!1spt-BR!2sbr!4v1739038371113!5m2!1spt-BR!2sbr"
+                        width="650" height="450"
+                        style="border:5px solid white; border-radius: 15px; box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                     </iframe>
                 </div>
             </div>
@@ -145,7 +178,11 @@
                     <div class="col-sm-7 col-12 ps-sm-0 pe-sm-5">
                         <h5 class="fw-bold">Arte e Decoração</h5>
                         <p class="p-fornecedores" style="text-align: justify;">
-                            Uma verdadeira artista no mundo das decorações florais. Georgia transforma espaços em cenários encantadores, trazendo vida, beleza e harmonia a cada evento em que atua. Com um olhar apurado para os detalhes e um coração generoso, suas criações refletem paixão e capricho, garantindo um ambiente inesquecível. A decoração não é apenas estética; é a alma visual de um evento, e Georgia domina essa arte com maestria.
+                            Uma verdadeira artista no mundo das decorações florais. Georgia transforma espaços em
+                            cenários encantadores, trazendo vida, beleza e harmonia a cada evento em que atua. Com um
+                            olhar apurado para os detalhes e um coração generoso, suas criações refletem paixão e
+                            capricho, garantindo um ambiente inesquecível. A decoração não é apenas estética; é a alma
+                            visual de um evento, e Georgia domina essa arte com maestria.
                         </p>
                     </div>
                 </div>
@@ -156,7 +193,10 @@
                     <div class="col-sm-7 col-12 ps-sm-0 pe-sm-5">
                         <h5 class="fw-bold">Fotografia e Arte</h5>
                         <p class="p-fornecedores" style="text-align: justify;">
-                            Jonathan transforma momentos em eternidade através de sua lente. Com um olhar sensível e artístico, ele captura emoções, detalhes e histórias, criando memórias que encantam os olhos e tocam o coração. A fotografia é mais do que um registro; é uma arte que imortaliza sentimentos, e Jonathan a domina com delicadeza e técnica impecáveis.
+                            Jonathan transforma momentos em eternidade através de sua lente. Com um olhar sensível e
+                            artístico, ele captura emoções, detalhes e histórias, criando memórias que encantam os olhos
+                            e tocam o coração. A fotografia é mais do que um registro; é uma arte que imortaliza
+                            sentimentos, e Jonathan a domina com delicadeza e técnica impecáveis.
                         </p>
                     </div>
                 </div>
@@ -167,7 +207,11 @@
                     <div class="col-sm-7 col-12 ps-sm-0 pe-sm-5">
                         <h5 class="fw-bold">Penteados e Produção</h5>
                         <p class="p-fornecedores" style="text-align: justify;">
-                            Débora tem o dom de revelar o melhor de cada pessoa. Com mãos habilidosas e criatividade de sobra, ela cria penteados exuberantes e produções impecáveis, elevando a beleza natural de cada cliente. Sua dedicação e atenção aos detalhes resultam em verdadeiras obras de arte. Ser uma profissional de produção e penteado é sobre empoderar e fazer brilhar, e Débora entrega isso em seu trabalho.
+                            Débora tem o dom de revelar o melhor de cada pessoa. Com mãos habilidosas e criatividade de
+                            sobra, ela cria penteados exuberantes e produções impecáveis, elevando a beleza natural de
+                            cada cliente. Sua dedicação e atenção aos detalhes resultam em verdadeiras obras de arte.
+                            Ser uma profissional de produção e penteado é sobre empoderar e fazer brilhar, e Débora
+                            entrega isso em seu trabalho.
                         </p>
                     </div>
                 </div>
@@ -178,7 +222,12 @@
                     <div class="col-sm-7 col-12 ps-sm-0 pe-sm-5">
                         <h5 class="fw-bold">Assessoria e Gestão</h5>
                         <p class="p-fornecedores" style="text-align: justify;">
-                            Priscila é sinônimo de organização e tranquilidade. Com uma mente estratégica e atenta a cada detalhe, ela assegura que tudo flua perfeitamente, permitindo que os noivos aproveitem cada instante sem preocupações. Desde a logística do tempo até a coordenação de pessoas, Priscila traz sua expertise para transformar a complexidade de uma cerimônia em pura harmonia. Ser assessora é como ser a engrenagem invisível que faz tudo funcionar, e Priscila é impecável nesse papel.
+                            Priscila é sinônimo de organização e tranquilidade. Com uma mente estratégica e atenta a
+                            cada detalhe, ela assegura que tudo flua perfeitamente, permitindo que os noivos aproveitem
+                            cada instante sem preocupações. Desde a logística do tempo até a coordenação de pessoas,
+                            Priscila traz sua expertise para transformar a complexidade de uma cerimônia em pura
+                            harmonia. Ser assessora é como ser a engrenagem invisível que faz tudo funcionar, e Priscila
+                            é impecável nesse papel.
                         </p>
                     </div>
                 </div>
@@ -189,7 +238,12 @@
                     <div class="col-sm-7 col-12 ps-sm-0 pe-sm-5">
                         <h5 class="fw-bold">Cerimonialista</h5>
                         <p class="p-fornecedores" style="text-align: justify;">
-                            Mais do que um profissional, Fernando é o coração acolhedor de cada cerimônia. Com carisma natural e habilidade em conectar-se com as pessoas, ele transforma cada momento em algo memorável. Desde o planejamento até o grande dia, Fernando guia os noivos com segurança e leveza, garantindo que cada palavra dita e cada gesto sejam cheios de significado. Ser um cerimonialista é assumir a missão de traduzir sentimentos em uma celebração única, e Fernando o faz com excelência.
+                            Mais do que um profissional, Fernando é o coração acolhedor de cada cerimônia. Com carisma
+                            natural e habilidade em conectar-se com as pessoas, ele transforma cada momento em algo
+                            memorável. Desde o planejamento até o grande dia, Fernando guia os noivos com segurança e
+                            leveza, garantindo que cada palavra dita e cada gesto sejam cheios de significado. Ser um
+                            cerimonialista é assumir a missão de traduzir sentimentos em uma celebração única, e
+                            Fernando o faz com excelência.
                         </p>
                     </div>
                 </div>
@@ -200,7 +254,12 @@
                     <div class="col-sm-7 col-12 ps-sm-0 pe-sm-5">
                         <h5 class="fw-bold">Som e DJ</h5>
                         <p class="p-fornecedores" style="text-align: justify;">
-                            A música tem o poder de eternizar momentos, e o DJ Felipe Lima domina essa arte com maestria. Desde a cerimônia até a última música da festa, ele administra cada som com precisão, garantindo que cada fase do nosso grande dia tenha a trilha sonora perfeita. Com sensibilidade e experiência, Felipe transforma músicas em sentimentos, conduzindo cada instante de forma harmoniosa e envolvente. Um profissional essencial para tornar nossa celebração ainda mais especial!
+                            A música tem o poder de eternizar momentos, e o DJ Felipe Lima domina essa arte com
+                            maestria. Desde a cerimônia até a última música da festa, ele administra cada som com
+                            precisão, garantindo que cada fase do nosso grande dia tenha a trilha sonora perfeita. Com
+                            sensibilidade e experiência, Felipe transforma músicas em sentimentos, conduzindo cada
+                            instante de forma harmoniosa e envolvente. Um profissional essencial para tornar nossa
+                            celebração ainda mais especial!
                         </p>
                     </div>
                 </div>
@@ -230,15 +289,22 @@
             <div class="p-3 text-white">
                 <h3 class="text-center">Presentes e Doações</h3>
                 <div class="row">
-                    <div class="col-6 text-center border-end">
-                        <h5>Lista de Presentes</h5>
-                        <p class="p-listas">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat iste adipisci, facilis alias sapiente cum doloremque placeat facere pariatur temporibus debitis fugiat, similique officia accusamus obcaecati deserunt a voluptatibus suscipit?</p>
-                        <button class="btn text-white" style="background-color: #87607f">Ver Lista</button>
-                    </div>
-                    <div class="col-6 text-center">
+                    <div class="col-12 text-center my-2">
                         <h5>Ajude os Noivinhos</h5>
-                        <p class="p-listas">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam asperiores qui molestiae ea consectetur quisquam officia ipsam, vero dolorem veniam nulla pariatur exercitationem praesentium mollitia minus laborum voluptatem perspiciatis consequatur?</p>
-                        <button class="btn text-white" style="background-color: #87607f">Doar</button>
+                        <p class="p-listas">
+                            Ter vocês ao nosso lado nesse momento tão especial já são o maior presente que poderíamos
+                            receber. O nosso casamento é um sonho sendo realizado, e cada detalhe está sendo construído
+                            com muito amor e gratidão.
+                            Sabemos que a vida tem suas prioridades, e de maneira alguma queremos que sintam qualquer
+                            tipo de obrigação. Mas, se alguém quiser e principalmente puder contribuir de alguma forma,
+                            toda ajuda será recebida com imensa gratidão, seja para a construção do nosso lar ou para
+                            tornar essa celebração ainda mais inesquecível.
+                            O mais importante para nós é celebrar esse dia cercados por pessoas queridas, compartilhando
+                            amor, alegria e boas memórias. E isso, sem dúvida, já é o maior presente que poderíamos ter!
+                            💛✨
+                        </p>
+                        <button class="btn text-white" style="background-color: #87607f">Presentes</button>
+                        <button class="btn text-white" style="background-color: #87607f">Contribuir</button>
                     </div>
                 </div>
             </div>
@@ -247,15 +313,21 @@
 
         <!-- SECTION 8 -->
         <section class="my-5 mx-sm-5 h-auto" id="section-8" style="font-family: Diphylleia, serif;">
-                <div class="p-3 text-dark">
-                    <h3 class="text-center">Lista de Presença</h3>
-                    <div class="d-flex justify-content-center">
-                        <div class="w-50 text-center border-end">
-                            <p class="p-listas">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat iste adipisci, facilis alias sapiente cum doloremque placeat facere pariatur temporibus debitis fugiat, similique officia accusamus obcaecati deserunt a voluptatibus suscipit?</p>
-                            <button class="btn text-white" style="background-color: #87607f">Marcar Presença</button>
-                        </div>
+            <div class="p-3 text-dark">
+                <h3 class="text-center">Lista de Presença</h3>
+                <div class="d-flex justify-content-center">
+                    <div class="w-75 text-center border-end">
+                        <p class="p-listas">
+                            Queremos compartilhar esse dia tão especial com cada um de vocês! Para garantir que tudo
+                            seja preparado com muito carinho, pedimos que confirmem sua presença através da nossa lista.
+                            <br>
+                            A confirmação é essencial para organizarmos cada detalhe e garantir que ninguém fique de
+                            fora dessa celebração inesquecível. Contamos com vocês! ✨💍
+                        </p>
+                        <button class="btn text-white" style="background-color: #87607f">Marcar Presença</button>
                     </div>
                 </div>
+            </div>
         </section>
         <!-- SECTION 8 -->
 
@@ -280,10 +352,33 @@
 
     <!-- FOOTER -->
     <footer class="text-center">
-        <span>Desenvolvido com ❤️</span>
+        <span>Desenvolvido com ❤️ por Crysnanth</span>
     </footer>
     <!-- FOOTER -->
+    <script>
+        const swiper = new Swiper('.mySwiper', {
+            effect: "cards",
+            grabCursor: true,
+        });
 
+        const swiper6 = new Swiper(".mySwiper6", {
+            grabCursor: true,
+            effect: "creative",
+            creativeEffect: {
+                prev: {
+                shadow: true,
+                origin: "left center",
+                translate: ["-5%", 0, -200],
+                rotate: [0, 100, 0],
+                },
+                next: {
+                origin: "right center",
+                translate: ["5%", 0, -200],
+                rotate: [0, -100, 0],
+                },
+        },
+        });
+    </script>
 </body>
 
 </html>
