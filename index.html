@@ -24,9 +24,31 @@
 
 <body style="background-color: #fbf7f1;">
     <!-- HEADER -->
-    <header class="text-white d-flex flex-column justify-content-center align-items-center">
-        <h1 style="font-family: Great Vibes, serif">Crysnanth & Ellen</h1>
-        <p class="w-50 text-center" id="p-text-typed"></p>
+    <header class="sticky-top text-white d-flex flex-column justify-content-center align-items-center shadow">
+        <h1 class="mt-1" style="font-family: Great Vibes, serif">Crysnanth & Ellen</h1>
+        <nav class="navbar navbar-expand-lg p-0" data-bs-theme="dark">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon" style="color: white !important;"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" style="border-bottom: 2px solid white !important;" href="#section-1"><i class="bi bi-heart-fill"></i> Nossa História</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" style="border-bottom: 2px solid white !important;" href="#div-teste"><i class="bi bi-info-circle-fill"></i> Informações</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" style="border-bottom: 2px solid white !important;" href="#section-7"><i class="bi bi-box2-heart-fill"></i> Lista de Presentes</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- <p class="w-50 text-center" id="p-text-typed"></p> -->
     </header>
     <!-- HEADER -->
 
@@ -34,29 +56,28 @@
     <main class="mt-5">
 
         <!-- SECTION 1 -->
-        <section class="my-5 mx-sm-5">
-            <h3 class="fs-1 text-center" style="font-family: Diphylleia, serif;">Nossa História</h3>
+        <section class="my-5 mx-sm-5" id="section-1">
+            <h3 class="fs-1 text-center" id="h3-section-1" style="font-family: Diphylleia, serif;">Nossa História</h3>
             <div class="row m-0 p-0">
-                <!-- <div class="col-sm-6 col-12">
-                    <img class="img-fluid" src="assets/imgs/nossa-foto-1.png" alt="">
-                </div> -->
                 <div class="col-sm-6 col-12 my-2" id="div-swiper-slides">
-                    <div style="font-family: Diphylleia, serif;">
+                    <div>
                         <div class="swiper mySwiper">
                             <div class="swiper-wrapper">
-                                <!-- <div class="swiper-slide"><img class="img-fluid" src="assets/imgs/nossa-foto-1.png" alt=""></div> -->
-                                <div class="swiper-slide"><img class="img-fluid" src="assets/imgs/nossa-foto-2.jpg"
-                                        alt=""></div>
-                                <div class="swiper-slide"><img class="img-fluid" src="assets/imgs/nossa-foto-3.jpg"
-                                        alt=""></div>
-                                <div class="swiper-slide"><img class="img-fluid" src="assets/imgs/nossa-foto-4.jpg"
-                                        alt=""></div>
+                                <div class="swiper-slide">
+                                    <img class="img-fluid" src="assets/imgs/nossa-foto-2.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img class="img-fluid" src="assets/imgs/nossa-foto-3.jpg" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img class="img-fluid" src="assets/imgs/nossa-foto-4.jpg" alt="">
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-12 my-3" style="font-family: Sevillana, serif;">
-                    <p style="text-align: justify;">
+                <div class="col-sm-6 col-12 my-3">
+                    <p class="p-historias" style="font-family: Diphylleia, serif; text-align: justify;">
                         Tudo começou de forma simples, quase inocente. Dois jovens, separados por 1200 km de
                         distância, se encontraram no vasto universo da internet. O que deveria ser apenas amizade
                         logo se tornou algo mais – um sentimento que crescia silencioso, genuíno e inesperado.
@@ -93,14 +114,16 @@
                 <div class="col-sm-6 col-12 text-end">
                     <div class="swiper mySwiper6">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide"><img class="img-fluid" src="assets/imgs/pais-foto-1.jpeg" alt=""></div>
-                            <div class="swiper-slide"><img class="img-fluid" src="assets/imgs/pais-foto-3.png" alt=""></div>
+                            <div class="swiper-slide"><img class="img-fluid" src="assets/imgs/pais-foto-1.jpeg" alt="">
+                            </div>
+                            <div class="swiper-slide"><img class="img-fluid" src="assets/imgs/pais-foto-3.png" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="my-3 col-sm-6 col-12" style="font-family: Diphylleia, serif;">
+                <div class="my-3 col-sm-6 col-12">
                     <div>
-                        <p style="text-align: justify;">
+                        <p class="p-historias" style="font-family: Diphylleia, serif; text-align: justify;">
                             Antes mesmo de entendermos o que era o amor, nós o vimos refletido em nossos pais. Eles
                             foram nossos primeiros exemplos de parceria, paciência e compromisso. Através deles,
                             aprendemos que o amor verdadeiro vai muito além das flores e dos dias ensolarados – ele
@@ -134,7 +157,9 @@
                     <p id="p-versiculo">“O amor é paciente, o amor é bondoso. Não inveja, não se vangloria, não se
                         orgulha. Não maltrata, não procura seus interesses, não se ira facilmente, não guarda rancor. O
                         amor não se alegra com a injustiça, mas se alegra com a verdade. Tudo sofre, tudo crê, tudo
-                        espera, tudo suporta.”</p>
+                        espera, tudo suporta.”
+                        <div id="div-teste"></div>
+                    </p>
                 </div>
             </div>
         </section>
@@ -292,10 +317,12 @@
                     <div class="col-12 text-center my-2">
                         <h5>Ajude os Noivinhos</h5>
                         <p class="p-listas">
-                            Ter vocês ao nosso lado nesse momento especial já é o maior presente! ✨ Se quiserem e puderem contribuir, toda ajuda será recebida com carinho. Mas o que realmente importa é celebrar juntos, compartilhando amor e alegria! 💛
+                            Ter vocês ao nosso lado nesse momento especial já é o maior presente! ✨ Se quiserem e
+                            puderem contribuir, toda ajuda será recebida com carinho. Mas o que realmente importa é
+                            celebrar juntos, compartilhando amor e alegria! 💛
                         </p>
-                        <a href="https://sites.icasei.com.br/crysnantheellen/pages/34585038" class="btn text-white"
-                            style="background-color: #87607f">Presentes</a>
+                        <a href="https://sites.icasei.com.br/crysnantheellen/pages/34585038" target="_blank"
+                            class="btn text-white" style="background-color: #87607f">Presentes</a>
                         <button class="btn text-white" data-bs-toggle="modal" data-bs-target="#exampleModal"
                             style="background-color: #87607f">Contribuir</button>
                     </div>
@@ -317,8 +344,8 @@
                             A confirmação é essencial para organizarmos cada detalhe e garantir que ninguém fique de
                             fora dessa celebração inesquecível. Contamos com vocês! ✨💍
                         </p>
-                        <a href="https://sites.icasei.com.br/crysnantheellen/pages/34585005" class="btn text-white"
-                            style="background-color: #87607f">Marcar Presença</a>
+                        <a href="https://sites.icasei.com.br/crysnantheellen/pages/34585005" target="_blank"
+                            class="btn text-white" style="background-color: #87607f">Marcar Presença</a>
                     </div>
                 </div>
             </div>
@@ -333,11 +360,11 @@
 
     <!-- FOOTER -->
     <footer class="text-center">
-        <span>Desenvolvido com ❤️ por Crysnanth</span>
+        <span>Desenvolvido com ❤️ por Crysnanth & Ellen</span>
     </footer>
     <!-- FOOTER -->
 
-    <!-- Modal -->
+    <!-- Modal Pix -->
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
@@ -364,6 +391,29 @@
     </div>
     <!-- Modal -->
 
+    <!-- Modal Bem Vindo -->
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModal2Label" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body text-center rounded-4" style="background-color: #fbf7f1;">
+                    <h4>
+                        <i class="bi bi-calendar2-heart text-danger"></i> 
+                        Bem vindo ao nosso site! 
+                        <i class="bi bi-calendar2-heart text-danger"></i>
+                    </h4>
+                    <p class="p-listas" style="font-family: Diphylleia, serif; font-size: 20px !important;">
+                        Aqui você vai encontrar todas as informações sobre nosso casamento e mais.
+                    </p>
+                    <button class="btn text-white" data-bs-dismiss="modal" data-bs-target="#exampleModal2" aria-label="Close" style="background-color: #87607f">
+                        <i class="bi bi-box-arrow-in-right"></i>
+                        Ver Site 
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal -->
+
     <div class="toast-container position-fixed bottom-0 end-0 p-3">
         <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
             <div class="toast-header bg-success">
@@ -374,43 +424,25 @@
     </div>
 
     <script>
+        const modal_welcome = new bootstrap.Modal('#exampleModal2')
+        modal_welcome.show();
         document.addEventListener("DOMContentLoaded", function () {
-            const audio = document.getElementById("musicaFundo");
-            audio.volume = 0.1;
             // Toca a música quando o usuário interagir com a página
             document.body.addEventListener("click", function () {
+                const audio = document.getElementById("musicaFundo");
+                audio.volume = 0.1;
                 if (audio.paused) {
                     audio.play().catch(error => console.error("Erro ao iniciar a música:", error));
                 }
             });
         });
 
-        const typed = new Typed('#p-text-typed', {
-            strings: ['Sejam bem-vindos ao nosso site! Aqui, compartilhamos um pouco da nossa história e os detalhes do nosso grande dia. Acompanhem cada etapa dessa jornada especial conosco!'],
-            typeSpeed: 30,
-            startDelay: 3000,
-            showCursor: false,
-        });
-
-        const copiarTexto = () => {
-            const input = document.getElementById('disabledTextInput');
-
-            // Seleciona o texto dentro do input
-            input.select();
-            input.setSelectionRange(0, 99999); // Para dispositivos móveis
-
-            // Copia o texto para a área de transferência
-            navigator.clipboard.writeText(input.value)
-                .then(() => {
-                    const toastLiveExample = document.getElementById('liveToast');
-                    const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample);
-
-                    toastBootstrap.show();
-                })
-                .catch(err => {
-                    console.error("Erro ao copiar texto", err);
-                });
-        }
+        // const typed = new Typed('#p-text-typed', {
+        //     strings: ['Sejam bem-vindos ao nosso site! Aqui, compartilhamos um pouco da nossa história e os detalhes do nosso grande dia. Acompanhem cada etapa dessa jornada especial conosco!'],
+        //     typeSpeed: 30,
+        //     startDelay: 3000,
+        //     showCursor: false,
+        // });
 
         const swiper = new Swiper('.mySwiper', {
             effect: "cards",
@@ -442,6 +474,26 @@
                 disableOnInteraction: false,
             },
         });
+
+        const copiarTexto = () => {
+            const input = document.getElementById('disabledTextInput');
+
+            // Seleciona o texto dentro do input
+            input.select();
+            input.setSelectionRange(0, 99999); // Para dispositivos móveis
+
+            // Copia o texto para a área de transferência
+            navigator.clipboard.writeText(input.value)
+                .then(() => {
+                    const toastLiveExample = document.getElementById('liveToast');
+                    const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample);
+
+                    toastBootstrap.show();
+                })
+                .catch(err => {
+                    console.error("Erro ao copiar texto", err);
+                });
+        }
     </script>
 </body>
 
