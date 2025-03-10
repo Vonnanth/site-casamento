@@ -430,7 +430,7 @@
             // Toca a música quando o usuário interagir com a página
             document.body.addEventListener("click", function () {
                 const audio = document.getElementById("musicaFundo");
-                audio.volume = 0.1;
+                audio.volume = 0.3;
                 if (audio.paused) {
                     audio.play().catch(error => console.error("Erro ao iniciar a música:", error));
                 }
